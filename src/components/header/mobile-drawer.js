@@ -47,7 +47,37 @@ export default function MobileDrawer() {
       closeButton={<IoMdClose size="24px" color="#000000" />}
       drawerStyle={styles.drawer}
       closeBtnStyle={styles.close}
-    ></Drawer>
+    >
+      <Scrollbars autoHide>
+        <Box sx={styles.content}>
+          <Box sx={styles.menu}>
+            {menuItems.map(({ path, label }, index) => (
+              <Link
+                key={index}
+                activeClass="active"
+                to={path}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                {label}
+              </Link>
+            ))}
+          </Box>
+
+          <Box sx={styles.menuFooter}>
+            <Box sx={styles.social}>
+              {social.map(({ path, icon }, index) => (
+                <Box as="span" key={index} sx={styles.social.icon}>
+                  <Link to={path}>{icon}</Link>
+                </Box>
+              ))}
+            </Box>
+          </Box>
+        </Box>
+      </Scrollbars>
+    </Drawer>
   );
 }
 
