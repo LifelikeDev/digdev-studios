@@ -14,7 +14,7 @@ const packages = {
       id: 1,
       name: "Free Plan",
       description: "For Small teams or office",
-      buttonText: "Start free trail",
+      buttonText: "Start free trial",
       priceWithUnit: "$0",
       points: [
         {
@@ -49,7 +49,7 @@ const packages = {
       description: "For Enterprise business",
       priceWithUnit: "$15",
       buttonText: "Create account",
-      anotherOption: "Or Start 14 Days trail",
+      anotherOption: "Or Start 14 Days trial",
       points: [
         {
           id: 1,
@@ -119,7 +119,7 @@ const packages = {
       id: 1,
       name: "Free Plan",
       description: "For Small teams or office",
-      buttonText: "Start free trail",
+      buttonText: "Start free trial",
       priceWithUnit: "$0",
       points: [
         {
@@ -154,7 +154,7 @@ const packages = {
       description: "For Enterprise business",
       priceWithUnit: "$25",
       buttonText: "Create account",
-      anotherOption: "Or Start 10 Days trail",
+      anotherOption: "Or Start 10 Days trial",
       points: [
         {
           id: 1,
@@ -190,7 +190,7 @@ const packages = {
       description: "For pro level developers",
       priceWithUnit: "$39",
       buttonText: "Create account",
-      anotherOption: "Or Start 10 Days trail",
+      anotherOption: "Or Start 10 Days trial",
       points: [
         {
           id: 1,
