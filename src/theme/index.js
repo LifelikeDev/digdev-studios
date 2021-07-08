@@ -230,6 +230,14 @@ export default {
     },
     logo: {
       display: "flex",
+      height: 55,
+      width: 140,
+    },
+    logoBottom: {
+      display: "flex",
+      height: 55,
+      margin: "0 auto",
+      width: 170,
     },
   },
   images: {
