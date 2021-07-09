@@ -11,13 +11,14 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Top Quality Products for Your Very Needs
+            We provide you{" "}
+            <span sx={styles.banner.textHighlight}>high quality</span> design
+            and/or development experiences
           </Heading>
 
           <Text as="p" variant="heroSecondary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            voluptas sed dolor dignissimos, laboriosam praesentium architecto
-            nulla rem consequatur cumque!
+            Stand out from the crowd and grow your business with our proven and
+            tried services
           </Text>
 
           <Button variant="primary">Find Out More</Button>
@@ -84,6 +85,9 @@ const styles = {
         position: "relative",
         height: [245, "auto"],
       },
+    },
+    textHighlight: {
+      color: "#46D29E",
     },
   },
 };

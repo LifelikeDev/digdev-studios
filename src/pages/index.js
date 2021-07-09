@@ -18,7 +18,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO title="Corporate Landing" />
+        <SEO title="DigDev Studios" />
         <Banner />
         <KeyFeature />
         <ServiceSection />
