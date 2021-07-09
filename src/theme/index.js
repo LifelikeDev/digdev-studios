@@ -6,8 +6,8 @@ export default {
     heading: "#DFE7F2", // primary heading color
     headingPlain: "#376C9B", // primary heading color on plain backgrounds
     heading_secondary: "#0F2137", // heading color
-    // background: "#376C9B", // body background color
     background: "#DFE7F2", // body background color
+    background_blue: "#376C9B", // body background blue color
     background_secondary: "#F9FBFD", // secondary background color
     border_color: "#E5ECF4", // border color
     yellow: "#FFA740", // border color
@@ -234,6 +234,11 @@ export default {
       display: "flex",
       height: 55,
       width: 140,
+
+      "@media screen and (max-width: 768px)": {
+        height: 50,
+        width: 130,
+      },
     },
     logoBottom: {
       display: "flex",

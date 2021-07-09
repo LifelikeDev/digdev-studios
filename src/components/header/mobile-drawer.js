@@ -44,7 +44,7 @@ export default function MobileDrawer() {
       }
       open={isDrawerOpen}
       toggleHandler={() => setIsDrawerOpen((prevState) => !prevState)}
-      closeButton={<IoMdClose size="24px" color="#000000" />}
+      closeButton={<IoMdClose size="24px" color="#DFE7F2" />}
       drawerStyle={styles.drawer}
       closeBtnStyle={styles.close}
     >
@@ -96,9 +96,10 @@ const styles = {
   },
 
   drawer: {
+    backgroundColor: "background_blue",
     width: "100%",
     height: "100%",
-    backgroundColor: "dark",
+    // backgroundColor: "dark",
   },
 
   close: {
@@ -132,13 +133,13 @@ const styles = {
       color: "text_white",
       py: "15px",
       cursor: "pointer",
-      borderBottom: "1px solid #e8e5e5",
+      borderBottom: "1px solid rgba(255, 255, 255, 0.2)",
       transition: "all 0.25s",
       "&:hover": {
-        color: "secondary",
+        color: "primary",
       },
       "&.active": {
-        color: "secondary",
+        color: "primary",
       },
     },
   },
