@@ -4,9 +4,10 @@ export default {
     text: "#DFE7F2", // body color and primary color
     text_secondary: "#02073E", // secondary body color
     heading: "#DFE7F2", // primary heading color
+    headingPlain: "#376C9B", // primary heading color on plain backgrounds
     heading_secondary: "#0F2137", // heading color
-    background: "#376C9B", // body background color
-    // background: '#FFFFFF', // body background color
+    // background: "#376C9B", // body background color
+    background: "#DFE7F2", // body background color
     background_secondary: "#F9FBFD", // secondary background color
     border_color: "#E5ECF4", // border color
     yellow: "#FFA740", // border color
@@ -122,19 +123,20 @@ export default {
     mx: "auto",
     title: {
       fontSize: ["24px", null, "28px", null, null, "32px", null, "36px"],
-      color: "heading",
+      color: "headingPlain",
       lineHeight: [1.3, null, null, 1.25],
       textAlign: "center",
       fontWeight: "700",
       letterSpacing: "-.5px",
+      mb: 3,
     },
 
     subTitle: {
-      fontSize: [0, "13px", null, "14px"],
-      color: "primary",
+      fontSize: [0, "15px", null, "16px"],
+      color: "headingPlain",
       textAlign: "center",
-      letterSpacing: ["1.5px", null, "2px"],
-      textTransform: "uppercase",
+      letterSpacing: ["1.2px", null, "1.5px"],
+      textTransform: "lowercase",
       fontWeight: "700",
       mb: 2,
       lineHeight: 1.5,

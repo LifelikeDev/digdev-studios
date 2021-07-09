@@ -35,12 +35,12 @@ const styles = {
     width: ["80px", null, null, "90px", null, "auto"],
   },
   wrapper: {
+    color: "headingPlain",
     width: "100%",
     display: "flex",
     flexDirection: "column",
     title: {
       fontSize: 3,
-      color: "heading_secondary",
       lineHeight: 1.4,
       fontWeight: 700,
       mb: [2, null, 3],
