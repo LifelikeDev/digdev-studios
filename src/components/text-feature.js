@@ -11,9 +11,6 @@ export default function TextFeature({
   return (
     <Box sx={styles.card}>
       <Box sx={styles.wrapper}>
-        <Text as="p" sx={styles.wrapper.subTitle}>
-          {subTitle}
-        </Text>
         <Heading as="h2" sx={styles.wrapper.title}>
           {title}
         </Heading>

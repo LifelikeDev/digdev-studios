@@ -22,22 +22,22 @@ import Smart from "assets/services/smart.svg";
 import Secure from "assets/services/secure.svg";
 
 const data = {
-  subTitle: "our services",
-  title: "Business Goals Achieved with Design",
+  // subTitle: "our services",
+  title: "Up to speed with the latest design trends",
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: "Smart Features",
-      title: "Smart Features",
+      altText: "User Experience",
+      title: "User Experience",
       text:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ducimus autem, sunt quisquam beatae impedit laboriosam.",
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: "Secure Contents",
-      title: "Secure Contents",
+      altText: "User Interface",
+      title: "User Interface",
       text:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ducimus autem, sunt quisquam beatae impedit laboriosam.",
     },
@@ -75,7 +75,7 @@ export default function ServiceSection() {
         </Box>
 
         <Box sx={styles.contentBox}>
-          <TextFeature subTitle={data.subTitle} title={data.title} />
+          <TextFeature title={data.title} />
 
           <Grid sx={styles.grid}>
             {data.features.map(({ id, imgSrc, altText, text, title }) => (
@@ -229,6 +229,7 @@ const styles = {
     },
 
     subTitle: {
+      color: "text_secondary",
       fontSize: [1, null, null, "14px", 1],
       fontWeight: 400,
       lineHeight: 1.9,

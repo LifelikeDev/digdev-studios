@@ -13,32 +13,32 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: "Fast Performance",
-    title: "Fast Performance",
+    altText: "Performance",
+    title: "Performance",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sint asperiores.",
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: "Partnership deal",
-    title: "Partnership deal",
+    altText: "Reliance",
+    title: "Reliance",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sint asperiores.",
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: "Pro Subscription",
-    title: "Pro Subscription",
+    altText: "Lifetime services",
+    title: "Lifetime services",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sint asperiores.",
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: "Customer Support",
-    title: "Customer Support",
+    altText: "User-focused",
+    title: "User-focused",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sint asperiores.",
   },

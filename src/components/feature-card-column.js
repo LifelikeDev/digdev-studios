@@ -35,17 +35,18 @@ const styles = {
     width: ["80px", null, null, "90px", null, "auto"],
   },
   wrapper: {
-    color: "headingPlain",
     width: "100%",
     display: "flex",
     flexDirection: "column",
     title: {
+      color: "text_secondary",
       fontSize: 3,
       lineHeight: 1.4,
       fontWeight: 700,
       mb: [2, null, 3],
     },
     subTitle: {
+      color: "text_secondary",
       fontSize: 1,
       fontWeight: 400,
       lineHeight: "1.9",
