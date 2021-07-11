@@ -47,6 +47,7 @@ const styles = {
     },
 
     subTitle: {
+      color: "heading_secondary",
       fontSize: [1, "15px"],
       fontWeight: 400,
       lineHeight: "1.9",

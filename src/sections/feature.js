@@ -12,34 +12,34 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: "Fast Performance",
-    title: "Fast Performance",
+    altText: "Modern technologies",
+    title: "Modern technologies",
     text:
-      "Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.",
+      "Dolor sit amet consectetur adipisicing elit. Facere quasi aspernatur error nesciunt sapiente modi voluptatum neque ut eveniet consectetur dolore, possimus voluptates omnis, nostrum beatae.",
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: "Pro Subscription",
-    title: "Pro Subscription",
+    altText: "Highly functional code",
+    title: "Highly functional code",
     text:
-      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quasi aspernatur error nesciunt sapiente modi voluptatum neque ut eveniet consectetur dolore.",
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: "Partnership deal",
-    title: "Partnership deal",
+    altText: "Scalable codebase",
+    title: "Scalable codebase",
     text:
-      "Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.",
+      "Eveniet dolore, lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quasi aspernatur error nesciunt sapiente modi voluptatum neque ut.",
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: "Customer Support",
-    title: "Customer Support",
+    altText: "Tests and more tests",
+    title: "Tests and more tests",
     text:
-      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
+      "Ipsum lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quasi aspernatur error nesciunt sapiente modi voluptatum neque ut eveniet consectetur.",
   },
 ];
 
@@ -47,10 +47,7 @@ export default function Feature() {
   return (
     <section sx={{ variant: "section.feature" }}>
       <Container>
-        <SectionHeader
-          slogan="What we stand for"
-          title="Unique. Nowhere near the crowd."
-        />
+        <SectionHeader title="Software development as a business" />
 
         <Grid sx={styles.grid}>
           {data.map(({ id, imgSrc, altText, title, text }) => (
