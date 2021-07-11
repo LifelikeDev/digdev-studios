@@ -7,17 +7,31 @@ export default function TextFeature({
   description,
   btnName,
   btnURL = "#",
+  blueBackground,
 }) {
   return (
     <Box sx={styles.card}>
       <Box sx={styles.wrapper}>
-        <Heading as="h2" sx={styles.wrapper.title}>
+        <Heading
+          as="h2"
+          sx={
+            blueBackground
+              ? styles.wrapper.title.blue
+              : styles.wrapper.title.plain
+          }
+        >
           {title}
         </Heading>
       </Box>
 
       {description && (
-        <Text as="p" sx={styles.description} className="description">
+        <Text
+          as="p"
+          sx={
+            blueBackground ? styles.description.blue : styles.description.plain
+          }
+          className="description"
+        >
           {description}
         </Text>
       )}
@@ -58,19 +72,38 @@ const styles = {
       letterSpacing: ["1.5px", null, "2px"],
     },
     title: {
-      fontSize: ["24px", null, "28px", "30px", "36px", "42px", null, "48px"],
-      color: "headingPlain",
-      lineHeight: [1.3, null, null, null, 1.2],
-      fontWeight: "700",
-      letterSpacing: "-.5px",
-      mb: 5,
+      blue: {
+        fontSize: ["24px", null, "28px", "30px", "36px", "42px", null, "48px"],
+        color: "heading",
+        lineHeight: [1.3, null, null, null, 1.2],
+        fontWeight: "700",
+        letterSpacing: "-.5px",
+        mb: 5,
+      },
+      plain: {
+        fontSize: ["24px", null, "28px", "30px", "36px", "42px", null, "48px"],
+        color: "headingPlain",
+        lineHeight: [1.3, null, null, null, 1.2],
+        fontWeight: "700",
+        letterSpacing: "-.5px",
+        mb: 5,
+      },
     },
   },
   description: {
-    fontSize: ["15px", 2, null, null, null, "17px", null, 3],
-    fontWeight: 400,
-    lineHeight: [1.85, null, null, 2, null, "2.2"],
-    color: "text_secondary",
-    mb: "30px",
+    blue: {
+      fontSize: ["15px", 2, null, null, null, "17px", null, 3],
+      fontWeight: 400,
+      lineHeight: [1.85, null, null, 2, null, "2.2"],
+      color: "text",
+      mb: "30px",
+    },
+    plain: {
+      fontSize: ["15px", 2, null, null, null, "17px", null, 3],
+      fontWeight: 400,
+      lineHeight: [1.85, null, null, 2, null, "2.2"],
+      color: "text_secondary",
+      mb: "30px",
+    },
   },
 };

@@ -38,11 +38,7 @@ export default function WorkFlow() {
   return (
     <section sx={styles.workflow}>
       <Container>
-        <SectionHeader
-          slogan="How we work"
-          title="Take a tour of our workflow"
-          isWhite={true}
-        />
+        <SectionHeader title="A glimpse at our workflow" isWhite={true} />
 
         <Grid sx={styles.grid}>
           {data.map(({ id, title, text }) => (
@@ -63,7 +59,7 @@ export default function WorkFlow() {
 
 const styles = {
   workflow: {
-    backgroundColor: "primary",
+    backgroundColor: "background_blue",
     backgroundImage: `url(${PatternBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: "center center",
@@ -147,7 +143,7 @@ const styles = {
     mt: "-5px",
     title: {
       fontSize: [3, null, 4, null, null, 5],
-      color: "white",
+      color: "text",
       lineHeight: [1.4, null, null, null, null, 1.55],
       pr: [0, null, null, null, null, 2],
       mb: [2, 3],

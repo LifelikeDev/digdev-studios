@@ -97,6 +97,8 @@ export default {
       pb: [8, null, 9, null, null, 10, null, "170px"],
     },
     coreFeature: {
+      backgroundColor: "background_blue",
+      pt: [8, null, 9, null, null, 10],
       pb: [8, null, 9, null, null, 10, null, "170px"],
       overflow: "hidden",
     },
@@ -122,7 +124,7 @@ export default {
     marginBottom: ["50px", null, "60px", null, null, "65px", null, "80px"],
     mx: "auto",
     title: {
-      fontSize: ["24px", null, "28px", null, null, "32px", null, "36px"],
+      fontSize: ["24px", null, "28px", null, null, "36px", null, "40px"],
       color: "headingPlain",
       lineHeight: [1.3, null, null, 1.25],
       textAlign: "center",

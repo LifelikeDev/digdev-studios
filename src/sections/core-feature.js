@@ -4,6 +4,7 @@ import TextFeature from "components/text-feature";
 
 import FeatureThumb from "assets/core-feature.png";
 import shapePattern from "assets/shape-pattern2.png";
+import { useState } from "react";
 
 const data = {
   subTitle: "Core features",
@@ -15,6 +16,8 @@ const data = {
 };
 
 export default function CoreFeature() {
+  const [blueBackground, setBlueBackground] = useState(true);
+
   return (
     <section sx={{ variant: "section.coreFeature" }}>
       <Container sx={styles.containerBox}>
@@ -25,6 +28,7 @@ export default function CoreFeature() {
             description={data.description}
             btnName={data.btnName}
             btnURL={data.btnURL}
+            blueBackground={blueBackground}
           />
         </Box>
         <Box sx={styles.thumbnail}>
