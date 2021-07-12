@@ -22,7 +22,11 @@ export default function PriceCard({
 
       <Box>
         <Box className="package__header" sx={styles.pricingHeader}>
-          <Heading className="package__name" variant="title">
+          <Heading
+            sx={{ color: "text_secondary" }}
+            className="package__name"
+            variant="title"
+          >
             {name}
           </Heading>
 
@@ -96,7 +100,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    color: "white",
+    color: "text_secondary",
     position: "absolute",
     top: "-17px",
     letterSpacing: "-.14px",
@@ -108,7 +112,7 @@ const styles = {
     mb: ["30px", null, null, null, "40px"],
     p: {
       fontSize: [1, 2],
-      color: "text",
+      color: "text_secondary",
       lineHeight: "heading",
     },
     ".package__name": {
@@ -120,7 +124,7 @@ const styles = {
     fontSize: [4, null, 5, null, "30px"],
     lineHeight: 1,
     letterSpacing: "-0.55px",
-    color: "text",
+    color: "text_secondary",
     marginBottom: 2,
     display: "flex",
     alignItems: "center",
@@ -142,7 +146,7 @@ const styles = {
     lineHeight: [1.75, 1.6],
     mb: 3,
     alignItems: "flex-start",
-    color: "text",
+    color: "text_secondary",
     "&.closed": {
       opacity: 0.55,
       button: {

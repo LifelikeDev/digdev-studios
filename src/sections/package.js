@@ -280,10 +280,7 @@ export default function Package() {
   return (
     <section sx={{ variant: "section.pricing" }} id="pricing">
       <Container>
-        <SectionHeader
-          slogan="Pricing Plan"
-          title="A treat of royalty packages to choose from"
-        />
+        <SectionHeader title="A treat of royalty packages to choose from" />
 
         <Flex sx={styles.buttonGroup}>
           <Box sx={styles.buttonGroupInner}>
@@ -389,16 +386,16 @@ const styles = {
     padding: "7px",
     margin: "0 auto",
     borderRadius: "5px",
-    backgroundColor: "#F7F8FB",
+    backgroundColor: "rgba(196, 196, 196, 0.4)",
     button: {
       border: 0,
       padding: ["15px 20px", "15px 27px"],
       borderRadius: "5px",
-      color: "text",
+      color: "#02073e80",
       fontSize: [1, 2],
       lineHeight: 1.2,
       fontWeight: 500,
-      backgroundColor: "transparent",
+      backgroundColor: "#0000000a",
       cursor: "pointer",
       fontFamily: "body",
       letterSpacing: "-0.24px",
