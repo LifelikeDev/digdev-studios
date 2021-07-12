@@ -10,25 +10,25 @@ import ArrowEven from "assets/arrowEven.svg";
 const data = [
   {
     id: 1,
-    title: "Set disbursement Instructions",
+    title: "Discuss your painpoints with us",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat obcaecati eos!",
   },
   {
     id: 2,
-    title: "Assembly retrieves funds from your account",
+    title: "Review our solutions for your challenges",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat obcaecati eos!",
   },
   {
     id: 3,
-    title: "Assembly initiates disbursement",
+    title: "Place your order and make payments",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat obcaecati eos!",
   },
   {
     id: 4,
-    title: "Customer receives funds payment",
+    title: "Receive satisfaction from our services",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat obcaecati eos!",
   },
