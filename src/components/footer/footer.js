@@ -41,6 +41,7 @@ export default function Footer() {
 
 const styles = {
   footer: {
+    backgroundColor: "background_blue",
     footerBottomArea: {
       borderTop: "1px solid",
       borderTopColor: "border_color",
@@ -77,7 +78,8 @@ const styles = {
       },
     },
     copyright: {
-      fontSize: [1, "15px"],
+      fontSize: [1, "13px"],
+      letterSpacing: "2px",
       width: "100%",
     },
   },

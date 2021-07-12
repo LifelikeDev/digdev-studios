@@ -6,11 +6,11 @@ export default {
     },
     {
       path: "/",
-      label: "Advertise",
+      label: "Blog",
     },
     {
       path: "/",
-      label: "Supports",
+      label: "Privacy Policy",
     },
     {
       path: "/",

@@ -117,8 +117,8 @@ const packages = {
   annual: [
     {
       id: 1,
-      name: "Free Plan",
-      description: "For Small teams or office",
+      name: "Free",
+      description: "For everyone",
       buttonText: "Start free trial",
       priceWithUnit: "$0",
       points: [
@@ -136,7 +136,7 @@ const packages = {
         },
         {
           id: 3,
-          icon: <IoIosCheckmarkCircle />,
+          icon: <IoIosCloseCircle />,
           text: "Blog Support Tools",
           isAvailable: true,
         },
@@ -150,8 +150,8 @@ const packages = {
     },
     {
       id: 2,
-      name: "Business king",
-      description: "For Enterprise business",
+      name: "Premium",
+      description: "For small groups",
       priceWithUnit: "$25",
       buttonText: "Create account",
       anotherOption: "Or Start 10 Days trial",
@@ -176,7 +176,7 @@ const packages = {
         },
         {
           id: 4,
-          icon: <IoIosCheckmarkCircle />,
+          icon: <IoIosCloseCircle />,
           text: "Drag & Drop Builder ",
           isAvailable: true,
         },
@@ -186,8 +186,8 @@ const packages = {
       id: 3,
       header: "Suggested",
       headerIcon: <IoIosCheckmarkCircle />,
-      name: "Pro Master",
-      description: "For pro level developers",
+      name: "Professional",
+      description: "For teams and businesses",
       priceWithUnit: "$39",
       buttonText: "Create account",
       anotherOption: "Or Start 10 Days trial",
