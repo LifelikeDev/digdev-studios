@@ -17,8 +17,8 @@ export default function Banner() {
           </Heading>
 
           <Text as="p" variant="heroSecondary">
-            Stand out from the crowd and grow your business with our proven and
-            tried services
+            Stand out from the crowd and grow your business with our tried and
+            proven services
           </Text>
 
           <Button variant="primary">Learn More</Button>
