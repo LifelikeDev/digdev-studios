@@ -16,9 +16,9 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: "Saimon Harmer",
-    title: "Saimon Harmer",
-    designation: "CEO and Founder",
+    altText: "John Doe",
+    title: "John Doe",
+    designation: "Web Developer",
     socialProfile: [
       {
         id: 1,
@@ -43,9 +43,9 @@ const data = [
   {
     id: 2,
     imgSrc: Member2,
-    altText: "Aaron Nunez",
-    title: "Aaron Nunez",
-    designation: "Founder",
+    altText: "Julia Mughan",
+    title: "Julia Mughan",
+    designation: "Web Designer",
     socialProfile: [
       {
         id: 1,
@@ -70,9 +70,9 @@ const data = [
   {
     id: 3,
     imgSrc: Member3,
-    altText: "Aaron Nunez",
-    title: "Aaron Nunez",
-    designation: "Web Designer",
+    altText: "Arturo Estevas",
+    title: "Arturo Estevas",
+    designation: "Consultant",
     socialProfile: [
       {
         id: 1,
@@ -97,9 +97,9 @@ const data = [
   {
     id: 4,
     imgSrc: Member4,
-    altText: "Lina Jutila",
-    title: "Lina Jutila",
-    designation: "Web Developer",
+    altText: "Bernard Krissins",
+    title: "Bernard Krissins",
+    designation: "Developer Relations",
     socialProfile: [
       {
         id: 1,
@@ -124,9 +124,9 @@ const data = [
   {
     id: 5,
     imgSrc: Member5,
-    altText: "Saimon Harmer",
-    title: "Saimon Harmer",
-    designation: "CEO and Founder",
+    altText: "Luke Michaels",
+    title: "Luke Michaels",
+    designation: "H. R. Manager",
     socialProfile: [
       {
         id: 1,
@@ -151,9 +151,9 @@ const data = [
   {
     id: 6,
     imgSrc: Member6,
-    altText: "Aaron Nunez",
-    title: "Aaron Nunez",
-    designation: "Web Designer",
+    altText: "Diego Segura",
+    title: "Diego Segura",
+    designation: "Finance Manager",
     socialProfile: [
       {
         id: 1,
@@ -181,10 +181,7 @@ export default function TeamSection() {
   return (
     <section>
       <Container>
-        <SectionHeader
-          slogan="our team"
-          title="Highly qualified members at your service"
-        />
+        <SectionHeader title="Meet our team of professionals" />
 
         <Grid sx={styles.grid}>
           {data.map(

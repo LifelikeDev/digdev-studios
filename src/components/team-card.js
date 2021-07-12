@@ -40,10 +40,10 @@ const styles = {
     "&:hover": {
       boxShadow: ["none", null, "0 4px 10px rgba(39, 83, 123, 0.12)"],
       ".info__name": {
-        color: "primary",
+        color: "text_secondary",
       },
       ".info__designation": {
-        color: "primary",
+        color: "text_secondary",
       },
       ".social__share": {
         opacity: 1,
@@ -68,6 +68,7 @@ const styles = {
     textAlign: "center",
     mt: [3, null, 4],
     name: {
+      color: "#02073e66",
       fontSize: [1, 2, 3, null, null, 4],
       fontWeight: "bold",
       lineHeight: [1.25, 1.35],
@@ -75,10 +76,10 @@ const styles = {
       mb: 1,
     },
     designation: {
+      color: "#02073e66",
       fontSize: ["14px", null, null, 2],
       fontWeight: "body",
       lineHeight: "heading",
-      color: "text",
       transition: "color 0.25s",
     },
   },
@@ -96,13 +97,13 @@ const styles = {
     pt: 2,
     a: {
       fontSize: [0, 1, null, 2],
-      color: ["text", null, "primary"],
+      color: ["text_secondary", null, "text_secondary"],
       lineHeight: "1em",
       my: [0, null, "-2px"],
       px: 1,
       transition: "all 0.25s",
       "&:hover": {
-        color: ["primary", null, "text"],
+        color: ["text_secondary", null, "text_secondary"],
       },
     },
   },
