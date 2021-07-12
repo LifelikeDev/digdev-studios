@@ -184,7 +184,7 @@ const styles = {
     },
   },
   reviewCard: {
-    boxShadow: "0px 0px 1px rgba(38, 78, 118, 0.35)",
+    boxShadow: "1px -1px 1px rgba(38, 78, 118, 0.35)",
     transition: "all 0.3s",
     borderRadius: "6px",
     p: [
@@ -195,7 +195,7 @@ const styles = {
       "30px 30px 35px",
       "35px 30px 40px 40px",
     ],
-    bg: "white",
+    bg: "background",
     textAlign: "left",
     m: [
       "28px 5px 30px 5px",
