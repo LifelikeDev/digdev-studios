@@ -13,42 +13,42 @@ import Avatar4 from "assets/testimonial/avatar4.png";
 const data = [
   {
     id: 1,
-    title: "Modern look & trending design",
+    title: "High design standards",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsa quas voluptates reprehenderit repudiandae, tempore facere est quis quae dolores.",
     avatar: Avatar1,
-    name: "Denny Hilguston",
-    designation: "@denny.hil",
+    name: "Kelly Mandon",
+    designation: "Business Owner",
     review: 4,
   },
   {
     id: 2,
-    title: "Design Quality & performance",
+    title: "Efficient code functionality",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsa quas voluptates reprehenderit repudiandae, tempore facere est quis quae dolores.",
     avatar: Avatar2,
-    name: "Denny Hilguston",
-    designation: "@denny.hil",
+    name: "Doug Moore",
+    designation: "CEO, DuoM Tech.",
     review: 5,
   },
   {
     id: 3,
-    title: "Layout and organized layers",
+    title: "Great customer service",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsa quas voluptates reprehenderit repudiandae, tempore facere est quis quae dolores.",
     avatar: Avatar3,
-    name: "Denny Hilguston",
-    designation: "@denny.hil",
+    name: "Huaj Andes",
+    designation: "Entrepreneur",
     review: 5,
   },
   {
     id: 4,
     title: "Modern look & trending design",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsa quas voluptates reprehenderit repudiandae, tempore facere est quis quae dolores.",
     avatar: Avatar4,
-    name: "Denny Hilguston",
-    designation: "@denny.hil",
+    name: "Eric Eliahu",
+    designation: "UX Designer",
     review: 4,
   },
 ];
@@ -103,10 +103,7 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: "section.testimonial" }}>
       <Container css={{ textAlign: "center" }}>
-        <SectionHeader
-          slogan="Testimonials"
-          title="Hear what others say about us"
-        />
+        <SectionHeader title="What others are saying about us" />
 
         <Box sx={styles.carouselWrapper}>
           <Carousel {...carouselParams}>
@@ -225,7 +222,7 @@ const styles = {
         },
       },
       ".star": {
-        color: "primary",
+        color: "headingPlain",
         mr: "1px",
       },
       ".star-o": {
@@ -254,24 +251,24 @@ const styles = {
     fontSize: [1, 2],
     fontWeight: 700,
     mb: [3, null, null, "22px"],
-    color: "text",
+    color: "text_secondary",
     lineHeight: 1.6,
   },
   description: {
     fontSize: [1, null, null, 2],
     fontWeight: "normal",
-    color: "text",
+    color: "text_secondary",
     lineHeight: [1.85, null, 2],
   },
   heading: {
     fontSize: [1, null, null, 2],
     fontWeight: 700,
     mb: "3px",
-    color: "text",
+    color: "text_secondary",
     lineHeight: 1.3,
   },
   designation: {
-    color: "primary",
+    color: "headingPlain",
     fontWeight: "500",
     fontSize: 1,
     lineHeight: 1.4,
