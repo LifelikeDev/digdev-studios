@@ -13,7 +13,7 @@ export default function Banner() {
           <Heading as="h1" variant="heroPrimary">
             We provide{" "}
             <span sx={styles.banner.textHighlight}>high quality</span> design
-            and/or development experiences
+            and development experiences
           </Heading>
 
           <Text as="p" variant="heroSecondary">

@@ -58,7 +58,7 @@ const positionAnim = keyframes`
 
 const styles = {
   header: {
-    backgroundColor: "#376C9B",
+    backgroundColor: "background_blue",
     color: "text",
     fontWeight: "body",
     py: 4,
@@ -76,7 +76,7 @@ const styles = {
     },
     "&.sticky": {
       position: "fixed",
-      backgroundColor: "#376C9B",
+      backgroundColor: "background_blue",
       color: "text",
       boxShadow: "0 1px 2px rgba(0, 0, 0, 0.06)",
       py: 3,

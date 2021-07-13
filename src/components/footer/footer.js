@@ -78,6 +78,7 @@ const styles = {
       },
     },
     copyright: {
+      color: "text",
       fontSize: [1, "13px"],
       letterSpacing: "2px",
       width: "100%",
