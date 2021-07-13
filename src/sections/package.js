@@ -79,7 +79,7 @@ const packages = {
     },
     {
       id: 3,
-      header: "Suggested",
+      header: "Recommended",
       headerIcon: <IoIosCheckmarkCircle />,
       name: "Professional",
       description: "For teams and businesses",
@@ -184,7 +184,7 @@ const packages = {
     },
     {
       id: 3,
-      header: "Suggested",
+      header: "Recommended",
       headerIcon: <IoIosCheckmarkCircle />,
       name: "Professional",
       description: "For teams and businesses",
