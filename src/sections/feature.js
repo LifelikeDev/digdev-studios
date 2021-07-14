@@ -3,15 +3,15 @@ import { jsx } from "theme-ui";
 import { Container, Grid } from "theme-ui";
 import SectionHeader from "components/section-header";
 import FeatureCard from "components/feature-card.js";
-import Performance from "assets/feature/performance.svg";
-import Partnership from "assets/feature/partnership.svg";
-import Subscription from "assets/feature/subscription.svg";
-import Support from "assets/feature/support.svg";
+import ModernTech from "assets/feature/rating.svg";
+import Functional from "assets/feature/list.svg";
+import Scalable from "assets/feature/purchase.svg";
+import Tests from "assets/feature/trust.svg";
 
 const data = [
   {
     id: 1,
-    imgSrc: Performance,
+    imgSrc: ModernTech,
     altText: "Modern technologies",
     title: "Modern technologies",
     text:
@@ -19,7 +19,7 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: Partnership,
+    imgSrc: Functional,
     altText: "Highly functional code",
     title: "Highly functional code",
     text:
@@ -27,7 +27,7 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: Subscription,
+    imgSrc: Scalable,
     altText: "Scalable codebase",
     title: "Scalable codebase",
     text:
@@ -35,7 +35,7 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Support,
+    imgSrc: Tests,
     altText: "Tests and more tests",
     title: "Tests and more tests",
     text:
