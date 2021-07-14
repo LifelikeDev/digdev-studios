@@ -3,10 +3,10 @@ import { jsx } from "theme-ui";
 import { Container, Grid } from "theme-ui";
 import SectionHeader from "../components/section-header";
 import FeatureCardColumn from "components/feature-card-column.js";
-import Performance from "assets/key-feature/performance.svg";
-import Partnership from "assets/key-feature/partnership.svg";
-import Subscription from "assets/key-feature/subscription.svg";
-import Support from "assets/key-feature/support.svg";
+import Performance from "assets/key-feature/rocket.svg";
+import Reliance from "assets/key-feature/police-badge.svg";
+import LifetimeServices from "assets/key-feature/heart.svg";
+import UserFocused from "assets/key-feature/evacuation.svg";
 // import FeatureCard from "components/feature-card";
 
 const data = [
@@ -20,7 +20,7 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: Partnership,
+    imgSrc: Reliance,
     altText: "Reliance",
     title: "Reliance",
     text:
@@ -28,7 +28,7 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: Subscription,
+    imgSrc: LifetimeServices,
     altText: "Lifetime services",
     title: "Lifetime services",
     text:
@@ -36,7 +36,7 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Support,
+    imgSrc: UserFocused,
     altText: "User-focused",
     title: "User-focused",
     text:

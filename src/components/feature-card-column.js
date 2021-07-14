@@ -30,9 +30,9 @@ const styles = {
   },
   img: {
     mx: ["auto", null, 0],
-    ml: ["auto", null, "-13px"],
-    mb: -2,
-    width: ["80px", null, null, "90px", null, "auto"],
+    ml: ["auto", null, 0],
+    mb: 4,
+    width: ["60px", null, null, "80px", null, "100px"],
   },
   wrapper: {
     width: "100%",
