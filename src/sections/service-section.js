@@ -18,8 +18,8 @@ import { IoIosPlay } from "react-icons/io";
 import ServiceThumb from "assets/design-image.jpg";
 import shapePattern from "assets/shape-pattern1.png";
 
-import Smart from "assets/services/smart.svg";
-import Secure from "assets/services/secure.svg";
+import UserExperience from "assets/services/trampoline.svg";
+import UserInterface from "assets/services/blogging.svg";
 
 const data = {
   // subTitle: "our services",
@@ -27,7 +27,7 @@ const data = {
   features: [
     {
       id: 1,
-      imgSrc: Smart,
+      imgSrc: UserExperience,
       altText: "User Experience",
       title: "User Experience",
       text:
@@ -35,7 +35,7 @@ const data = {
     },
     {
       id: 2,
-      imgSrc: Secure,
+      imgSrc: UserInterface,
       altText: "User Interface",
       title: "User Interface",
       text:
