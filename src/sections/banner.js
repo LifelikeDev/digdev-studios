@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
-import BannerImg from "assets/banner-thumb.png";
+import BannerImg from "assets/hero-image.jpg";
 import ShapeLeft from "assets/shape-left.png";
 import ShapeRight from "assets/shape-right.png";
 
@@ -81,10 +81,11 @@ const styles = {
       justifyContent: "center",
       textAlign: "center",
       display: "inline-flex",
-      mb: [0, null, -6, null, null, "-40px", null, -3],
+      mb: [0, null, -6, null, null, "-40px", null, "auto"],
+      // mb: 5,
       img: {
         position: "relative",
-        height: [245, "auto"],
+        height: [245, "650px"],
       },
     },
     textHighlight: {
