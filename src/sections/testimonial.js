@@ -207,6 +207,9 @@ const styles = {
     "&:hover": {
       boxShadow: "0px 6px 30px rgba(38, 78, 118, 0.1)",
     },
+    "@media screen and (max-width: 480px)": {
+      boxShadow: "0 0 1px rgba(38, 78, 118, 0.35)",
+    },
     ".rating": {
       mb: [1, null, null, 2],
       ul: {

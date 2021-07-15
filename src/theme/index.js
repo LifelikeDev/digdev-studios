@@ -116,7 +116,7 @@ export default {
     },
   },
   sectionHeader: {
-    width: ["100%", null, "540px"],
+    width: ["100%", null, "560px"],
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -241,6 +241,11 @@ export default {
         height: 50,
         width: 130,
       },
+
+      "@media screen and (max-width: 480px)": {
+        height: 50,
+        width: 90,
+      },
     },
     logoBottom: {
       display: "flex",
@@ -298,7 +303,7 @@ export default {
       borderColor: "primary",
       color: "primary",
       bg: "transparent",
-      padding: ["10px 15px", null, "15px 30px"],
+      padding: ["7px 13px", null, "15px 30px"],
       "&:hover": {
         color: "white",
         bg: "primary",
