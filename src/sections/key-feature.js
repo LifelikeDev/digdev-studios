@@ -7,7 +7,6 @@ import Performance from "assets/key-feature/rocket.svg";
 import Reliance from "assets/key-feature/police-badge.svg";
 import LifetimeServices from "assets/key-feature/heart.svg";
 import UserFocused from "assets/key-feature/evacuation.svg";
-// import FeatureCard from "components/feature-card";
 
 const data = [
   {

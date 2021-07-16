@@ -22,7 +22,6 @@ import UserExperience from "assets/services/trampoline.svg";
 import UserInterface from "assets/services/blogging.svg";
 
 const data = {
-  // subTitle: "our services",
   title: "Up to speed with the latest design trends",
   features: [
     {
