@@ -62,6 +62,7 @@ const styles = {
     border: "2px solid",
     borderColor: "primary",
     borderRadius: "50%",
+    objectFit: "cover",
   },
   infoWrapper: {
     width: "100%",

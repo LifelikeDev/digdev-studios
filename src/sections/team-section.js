@@ -5,19 +5,19 @@ import SectionHeader from "components/section-header";
 import TeamCard from "components/team-card";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
-import Member1 from "assets/team/member-1.png";
-import Member2 from "assets/team/member-2.png";
-import Member3 from "assets/team/member-3.png";
-import Member4 from "assets/team/member-4.png";
-import Member5 from "assets/team/member-5.png";
-import Member6 from "assets/team/member-6.png";
+import Member1 from "assets/team/male-5.webp";
+import Member2 from "assets/team/female-1.webp";
+import Member3 from "assets/team/male-2.webp";
+import Member4 from "assets/team/male-4.webp";
+import Member5 from "assets/team/male-1.webp";
+import Member6 from "assets/team/male-3.webp";
 
 const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: "John Doe",
-    title: "John Doe",
+    altText: "Tom O'Reilly",
+    title: "Tom O'Reilly",
     designation: "Web Developer",
     socialProfile: [
       {
