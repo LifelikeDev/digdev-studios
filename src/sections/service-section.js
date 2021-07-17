@@ -15,7 +15,7 @@ import TextFeature from "components/text-feature";
 import ModalVideo from "react-modal-video";
 import { IoIosPlay } from "react-icons/io";
 
-import ServiceThumb from "assets/design-image.jpg";
+import ServiceThumb from "assets/design-image.webp";
 import shapePattern from "assets/shape-pattern1.png";
 
 import UserExperience from "assets/services/trampoline.svg";

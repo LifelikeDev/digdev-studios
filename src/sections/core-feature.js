@@ -2,7 +2,7 @@
 import { jsx, Container, Box, Image } from "theme-ui";
 import TextFeature from "components/text-feature";
 
-import FeatureThumb from "assets/business-trust.jpg";
+import FeatureThumb from "assets/business-trust.webp";
 import shapePattern from "assets/shape-pattern2.png";
 import { useState } from "react";
 
